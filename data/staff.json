@@ -1,0 +1,98 @@
+[
+  {
+    "id": "u-admin",
+    "login": "admin",
+    "name": "Rachel Moore",
+    "title": "Shelter manager",
+    "hash": "pbkdf2$100000$Klabrcqxo51ty27IKZOTUw==$Fv4+eZfBbmhK5fqNp1Y4Nq6Ca8giNc7MpwlJupeq0NY=",
+    "admin": true,
+    "active": true,
+    "perms": {}
+  },
+  {
+    "id": "u-maria",
+    "login": "maria",
+    "name": "Maria Lopez",
+    "title": "Adoption coordinator",
+    "hash": "pbkdf2$100000$ZSBtPau9625u4Sgzqnvd6g==$fMmh7B6a37jyV1wRAFXeEjgZigyMcHGTFbf7vo5PDVw=",
+    "admin": false,
+    "active": true,
+    "perms": {
+      "dogs": "VE",
+      "applications": "VEX",
+      "events": "V",
+      "messages": "VE"
+    }
+  },
+  {
+    "id": "u-tom",
+    "login": "tom",
+    "name": "Tom Becker",
+    "title": "Foster coordinator",
+    "hash": "pbkdf2$100000$+w5koTF+K33hXIZkKLksBg==$B3O6y/YovGybxsdC0JGSEs9eOJwqIPDkdpKZPAUqarA=",
+    "admin": false,
+    "active": true,
+    "perms": {
+      "dogs": "VE",
+      "applications": "V",
+      "fosters": "VE",
+      "messages": "VE"
+    }
+  },
+  {
+    "id": "u-aisha",
+    "login": "aisha",
+    "name": "Aisha Grant",
+    "title": "Volunteer coordinator",
+    "hash": "pbkdf2$100000$bnwCjauCUfE77R4nyIrUmw==$E5mIvUAXmvx2Hx0/XVewUzjZh5p4NoPRjgEEiJpnIJ0=",
+    "admin": false,
+    "active": true,
+    "perms": {
+      "volunteers": "VE",
+      "events": "VE",
+      "messages": "VE",
+      "dogs": "V"
+    }
+  },
+  {
+    "id": "u-jordan",
+    "login": "jordan",
+    "name": "Jordan Hale",
+    "title": "Development and donations",
+    "hash": "pbkdf2$100000$+aapRt9h1ZargI+Io/lg/Q==$Hdcs4fkEg693vuz0BhP7/kVJaR7Sk7ZmJyWR1ZLp56U=",
+    "admin": false,
+    "active": true,
+    "perms": {
+      "donations": "VEX",
+      "events": "VE",
+      "messages": "V",
+      "activity": "V"
+    }
+  },
+  {
+    "id": "u-ben",
+    "login": "ben",
+    "name": "Ben Okoro",
+    "title": "Kennel lead",
+    "hash": "pbkdf2$100000$ak8p4oT2+WPM/caCrqP/tg==$3KNQSl03dDYjPP9966whZbzS5GZT1BGHm7NQ1yI6Fho=",
+    "admin": false,
+    "active": true,
+    "perms": {
+      "dogs": "VE",
+      "applications": "V",
+      "fosters": "V"
+    }
+  },
+  {
+    "id": "u-lucy",
+    "login": "lucy",
+    "name": "Lucy Tran",
+    "title": "Kennel staff",
+    "hash": "pbkdf2$100000$UxeLfpQ3lWnsXaj4Oe7f7Q==$7bUsHmrMQbO+DChHdyFpeq1R9LTLaH3/FzVTsg3FnQo=",
+    "admin": false,
+    "active": true,
+    "perms": {
+      "dogs": "VE"
+    }
+  }
+]

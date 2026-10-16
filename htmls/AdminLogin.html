@@ -1,0 +1,17 @@
+<div class="lg-site lg-login" id="lg-site" data-theme="light" style="{plhd_style}">
+<img class="lg-lbg" src="images/scenes/hero.webp" alt="">
+<main class="lg-main lg-lwrap">
+    <div class="lg-lcard">
+        <a class="lg-lbrand" href="Home"><svg class="lg-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="var(--lg-accent)"/><ellipse cx="20" cy="25.5" rx="7.2" ry="6" fill="#fff"/><ellipse cx="11.2" cy="18.2" rx="2.9" ry="3.6" fill="#fff" transform="rotate(-18 11.2 18.2)"/><ellipse cx="16.4" cy="12.4" rx="2.9" ry="3.8" fill="#fff" transform="rotate(-6 16.4 12.4)"/><ellipse cx="23.6" cy="12.4" rx="2.9" ry="3.8" fill="#fff" transform="rotate(6 23.6 12.4)"/><ellipse cx="28.8" cy="18.2" rx="2.9" ry="3.6" fill="#fff" transform="rotate(18 28.8 18.2)"/></svg><b>{plhd_brand}</b><span>Admin</span></a>
+        <h1>Staff sign in</h1>
+        <form class="lg-lform" onsubmit="return AdminLoginJs.signIn()" novalidate>
+            <label class="lg-field" for="lg-user"><span>User name</span><input type="text" id="lg-user" maxlength="40" autocomplete="username" autocapitalize="none" value="{plhd_user}"></label>
+            <label class="lg-field" for="lg-pass"><span>Password</span><input type="password" id="lg-pass" maxlength="100" autocomplete="current-password" value="{plhd_pass}"></label>
+            <em class="lg-err" id="lg-e-pass" role="alert"></em>
+            <button type="submit" class="lg-btn lg-btn-wide" id="lg-lgo">Sign in</button>
+            {plhd_hint}
+        </form>
+        <a class="lg-lback" href="Home">&larr; Back to the website</a>
+    </div>
+</main>
+</div>

@@ -1,0 +1,20 @@
+<div class="dm-site dm-admin" id="dm-site" data-theme="light" style="{plhd_style}">
+<header class="dm-ahead">
+    <button type="button" class="dm-ibtn dm-burger" aria-label="Menu" onclick="AdminDonationsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="dm-abrand" href="Admin"><svg class="dm-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="var(--dm-accent)"/><ellipse cx="20" cy="25.5" rx="7.2" ry="6" fill="#fff"/><ellipse cx="11.2" cy="18.2" rx="2.9" ry="3.6" fill="#fff" transform="rotate(-18 11.2 18.2)"/><ellipse cx="16.4" cy="12.4" rx="2.9" ry="3.8" fill="#fff" transform="rotate(-6 16.4 12.4)"/><ellipse cx="23.6" cy="12.4" rx="2.9" ry="3.8" fill="#fff" transform="rotate(6 23.6 12.4)"/><ellipse cx="28.8" cy="18.2" rx="2.9" ry="3.6" fill="#fff" transform="rotate(18 28.8 18.2)"/></svg>{plhd_name}<span>Admin</span></a>
+    <span class="dm-grow"></span>
+    <a class="dm-who" id="dm-who" href="AdminAccount"></a>
+    <a class="dm-view" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="dm-out" onclick="AdminDonationsJs.signOut()">Sign out</button>
+</header>
+<aside class="dm-side" id="dm-nav" aria-label="Admin">
+    <div class="dm-nav-top"><span>Menu</span><button type="button" class="dm-ibtn" aria-label="Close" onclick="AdminDonationsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="dm-amenu" id="dm-menu"></ul>
+</aside>
+<div class="dm-scrim" id="dm-scrim" onclick="AdminDonationsJs.closeNav()"></div>
+<main class="dm-amain" id="dm-main"><p class="dm-loading">Loading&hellip;</p></main>
+<div class="dm-modal" id="dm-modal" onclick="if(event.target===this)AdminDonationsJs.closeModal()">
+    <div class="dm-mbox" role="dialog" aria-modal="true"><button type="button" class="dm-ibtn dm-mclose" aria-label="Close" onclick="AdminDonationsJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="dm-mbody"></div></div>
+</div>
+<div class="dm-toast" id="dm-toast" role="status" aria-live="polite"></div>
+</div>
